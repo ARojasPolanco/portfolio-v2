@@ -17,6 +17,7 @@ export default {
       'bg-100': '#0D1F2D',
       'bg-200': '#1d2e3d',
       'bg-300': '#333e48',
+      'bg-light': '#dee5e9',
       'light-gray': '#656669',
       'light-blue-sky': '#3d6ce3',
       'very-light-blue': '#82c6e6',
@@ -30,6 +31,12 @@ export default {
       'typescript': '#3178c6',
       'bootstrap': '#5b4282',
       'netlify': '#25c7b7',
+      'whatsapp': '#4cc75b',
+      'linkedin': '#2867b2',
+    },
+    fontFamily: {
+      'montserrat': ['Montserrat', 'sans-serif'],
+      'inter': ['Inter', 'sans-serif']
     }
   },
   plugins: [],
