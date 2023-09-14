@@ -5,7 +5,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Portfolio from './components/Portfolio'
-import Skiils from './components/Skiils'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -25,9 +25,9 @@ function App() {
         <AboutMe />
       </section>
       <section>
-        <Skiils />
+        <Skills />
       </section>
-      <section>
+      <section className='min-[1024px]:mt-[600px]'>
         <Portfolio />
       </section>
       <section>

@@ -43,11 +43,13 @@ const Navbar = () => {
                         </IconButton>
                     </Tooltip>
                 </Link>
-                <Tooltip title='Projects' placement='left'>
-                    <IconButton onClick={handleShowMenu}>
-                        <DashboardIcon className='text-white hover:text-netlify hover:scale-125' />
-                    </IconButton>
-                </Tooltip>
+                <Link to='Portfolio' smooth={true} duration={300} onClick={handleShowMenu}>
+                    <Tooltip title='Projects' placement='left'>
+                        <IconButton>
+                            <DashboardIcon className='text-white hover:text-netlify hover:scale-125' />
+                        </IconButton>
+                    </Tooltip>
+                </Link>
                 <Tooltip title='Contact Me' placement='left'>
                     <IconButton onClick={handleShowMenu}>
                         <ContactPageIcon className='text-white hover:text-netlify hover:scale-125' />

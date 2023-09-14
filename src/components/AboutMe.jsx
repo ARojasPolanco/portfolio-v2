@@ -2,7 +2,6 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../services/variants.js';
-import { Element } from 'react-scroll';
 
 const AboutMe = () => {
     const [ref, inView] = useInView({
