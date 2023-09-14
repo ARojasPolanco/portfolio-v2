@@ -4,9 +4,9 @@ import { TypeAnimation } from "react-type-animation"
 
 const Home = () => {
     return (
-        <section className="min-[640px]:flex min-[640px]:items-center justify-center">
+        <section className="sm:flex sm:items-center sm:gap-x-28 justify-center mb-8">
             <article>
-                <motion.article animate={{ scale: 1.1, transition: { duration: 1 } }} className="text-3xl font-montserrat font-bold text-bg-100 p-3 mt-8 h-[150px] w-[300px] mx-auto">
+                <motion.article animate={{ scale: 1.1, transition: { duration: 1 } }} className="text-3xl font-montserrat font-bold text-white p-3 mt-8 h-[150px] w-[300px] mx-auto">
                     <motion.h1
                         variants={fadeIn('up', 0.3)}
                         initial='hidden'
@@ -36,7 +36,7 @@ const Home = () => {
                         </span>
                     </article>
                 </motion.article>
-                <article className="text-center mt-8 text-lg text-bg-100 min-[640px]: w-[450px] mx-auto">
+                <article className="text-center mt-8 text-lg text-white min-[640px]: w-[310px] mx-auto">
                     <motion.p
                         variants={fadeIn('down', 0.3)}
                         initial='hidden'
@@ -47,23 +47,23 @@ const Home = () => {
                 </article>
             </article>
             <article>
-                <article className="flex justify-center mt-8">
+                <article className="flex justify-center mt-8 text-white text-lg font-medium">
                     <button className="btn">
                         Contactame
                     </button>
                 </article>
-                <article className="text-3xl flex justify-center gap-5 mt-10">
-                    <div className="text-whatsapp">
+                <article className="text-3xl flex justify-center gap-5 mt-10 mb-8">
+                    <div className="text-whatsapp bg-light-gray/60 h-10 aspect-square rounded-full flex justify-center items-center">
                         <a href=" https://w.app/U4A6g2" target='_blank'>
                             <i className='bx bxl-whatsapp'></i>
                         </a>
                     </div>
-                    <div>
+                    <div className="bg-light-gray/60 h-10 aspect-square rounded-full flex justify-center items-center">
                         <a href="https://github.com/ARojasPolanco" target='_blank'>
                             <i className='bx bxl-github'></i>
                         </a>
                     </div>
-                    <div className="text-linkedin">
+                    <div className="text-tailwind bg-light-gray/60 h-10 aspect-square rounded-full flex justify-center items-center">
                         <a href="https://ar.linkedin.com/" target='_blank'>
                             <i className='bx bxl-linkedin' ></i>
                         </a>

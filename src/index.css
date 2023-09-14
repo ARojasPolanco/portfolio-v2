@@ -1,5 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Inter:wght@400;500;700&family=Montserrat:wght@400;500;700&family=Orbitron:wght@400;500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+}
+
+.gradient,
+.active {
+    background: linear-gradient(92.23deg,
+            #406aff 21.43%,
+            #3bace2 50.63%,
+            #b936ee 100%,
+            #ff56f6 117.04%);
+}
+
+.h2 {
+    @apply font-aldrich text-[32px] mb-6 tracking-[10%] uppercase;
+}
+
+.h3 {
+    @apply font-orbitron font-semibold text-[26px] mb-6 leading-[46px];
+}

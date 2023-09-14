@@ -5,12 +5,13 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Portfolio from './components/Portfolio'
+import Skiils from './components/Skiils'
 
 function App() {
 
 
   return (
-    <main className='min-h-screen w-full bg-bg-light overflow-hidden font-montserrat'>
+    <main className='min-h-screen w-full bg-site bg-cover bg-no-repeat overflow-hidden font-montserrat'>
       <section>
         <Navbar />
       </section>
@@ -20,15 +21,18 @@ function App() {
       <section>
         <Home />
       </section>
-      {/* <section>
+      <section>
         <AboutMe />
+      </section>
+      <section>
+        <Skiils />
       </section>
       <section>
         <Portfolio />
       </section>
       <section>
         <ContactMe />
-      </section> */}
+      </section>
     </main>
   )
 }

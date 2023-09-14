@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    container: {
+      padding: {
+        DEFAULT: '15px',
+      },
+    },
+    extend: {
+      backgroundImage: {
+        about: "url('/images/hand-bg.png')",
+        site: "url(/images/bg-all.jpg)"
+      },
+    },
     colors: {
       'primary-100': '#0D6E6E',
       'primary-200': '#4a9d9c',
@@ -36,8 +46,15 @@ export default {
     },
     fontFamily: {
       'montserrat': ['Montserrat', 'sans-serif'],
-      'inter': ['Inter', 'sans-serif']
-    }
+      'inter': ['Inter', 'sans-serif'],
+      'orbitron': ['Orbitron', 'sans-serif'],
+      'aldrich': ['Aldrich', 'sans-serif']
+    },
+    container: {
+      padding: {
+        DEFAULT: '15px',
+      },
+    },
   },
   plugins: [],
 }
