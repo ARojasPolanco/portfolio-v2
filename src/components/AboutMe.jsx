@@ -9,8 +9,7 @@ const AboutMe = () => {
         threshold: 0.5,
     })
     return (
-        <section className='section' ref={ref}>
-            <Element name={'About'} />
+        <section id='About' className='section' ref={ref}>
             <article className='container mx-auto'>
                 <article className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 h-screen'>
                     <motion.div
@@ -24,7 +23,7 @@ const AboutMe = () => {
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }} className='text-white flex-1'>
-                        <h2 className='h2 text-very-light-blue'>Sobre Mi</h2>
+                        <h2 className='h2 text-very-light-blue'>Sobre Mí</h2>
                         <h3 className='h3'>Me encuentro en proceso de convertirme un programador web Full-stack, pero me especializo en el desarrollo Front-end</h3>
                         <p className='mb-6'>
                             Me desempeño en la creción de proyectos, utilizando herramientas de programación Front-End, estoy en constante aprendizaje, mejorando mis habilidades.

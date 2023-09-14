@@ -53,17 +53,17 @@ const Home = () => {
                     </button>
                 </article>
                 <article className="text-3xl flex justify-center gap-5 mt-10 mb-8">
-                    <div className="text-whatsapp bg-light-gray/60 h-10 aspect-square rounded-full flex justify-center items-center">
+                    <div className="text-whatsapp flex justify-center items-center hover:scale-125">
                         <a href=" https://w.app/U4A6g2" target='_blank'>
                             <i className='bx bxl-whatsapp'></i>
                         </a>
                     </div>
-                    <div className="bg-light-gray/60 h-10 aspect-square rounded-full flex justify-center items-center">
+                    <div className="flex justify-center items-center hover:scale-125">
                         <a href="https://github.com/ARojasPolanco" target='_blank'>
                             <i className='bx bxl-github'></i>
                         </a>
                     </div>
-                    <div className="text-tailwind bg-light-gray/60 h-10 aspect-square rounded-full flex justify-center items-center">
+                    <div className="text-tailwind flex justify-center items-center hover:scale-125">
                         <a href="https://ar.linkedin.com/" target='_blank'>
                             <i className='bx bxl-linkedin' ></i>
                         </a>
@@ -71,7 +71,7 @@ const Home = () => {
                 </article>
             </article>
 
-        </section>
+        </section >
 
 
     )

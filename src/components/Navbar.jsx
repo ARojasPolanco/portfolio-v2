@@ -36,12 +36,13 @@ const Navbar = () => {
                         </IconButton>
                     </Tooltip>
                 </Link>
-
-                <Tooltip title='Skills' placement='left'>
-                    <IconButton onClick={handleShowMenu}>
-                        <SchoolIcon className='text-white hover:text-netlify hover:scale-125' />
-                    </IconButton>
-                </Tooltip>
+                <Link to='Skills' smooth={true} duration={300} onClick={handleShowMenu}>
+                    <Tooltip title='Skills' placement='left'>
+                        <IconButton>
+                            <SchoolIcon className='text-white hover:text-netlify hover:scale-125' />
+                        </IconButton>
+                    </Tooltip>
+                </Link>
                 <Tooltip title='Projects' placement='left'>
                     <IconButton onClick={handleShowMenu}>
                         <DashboardIcon className='text-white hover:text-netlify hover:scale-125' />
