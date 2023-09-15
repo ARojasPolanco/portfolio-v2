@@ -172,11 +172,11 @@ const Portfolio = () => {
                             <article className='flex gap-x-12 justify-center p-1'>
                                 <article className='text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-github'></i>
-                                    <a href="https://github.com/ARojasPolanco/Project-2-react" target="_blank">GitHub</a>
+                                    <a href="https://github.com/ARojasPolanco/Project-5" target="_blank">GitHub</a>
                                 </article>
                                 <article className='flex justify-center items-center gap-x-2 text-netlify w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-netlify'></i>
-                                    <a className="text-white" href="https://weather-api-academlo.netlify.app" target="_blank">Netlify</a>
+                                    <a className="text-white" href="https://pokedexapiacademlo.netlify.app" target="_blank">Netlify</a>
                                 </article>
                             </article>
                         </article>
