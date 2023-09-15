@@ -55,7 +55,7 @@ const Home = () => {
                 </article>
                 <article className="text-3xl flex justify-center gap-5 mt-10 mb-8">
                     <div className="text-whatsapp flex justify-center items-center hover:scale-125">
-                        <a href=" https://w.app/U4A6g2" target='_blank'>
+                        <a href="https://wa.me/qr/AFAJJMJT62VRJ1" target='_blank'>
                             <i className='bx bxl-whatsapp'></i>
                         </a>
                     </div>
