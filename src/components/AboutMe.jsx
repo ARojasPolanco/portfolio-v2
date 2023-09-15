@@ -20,7 +20,7 @@ const AboutMe = () => {
                     </motion.div>
                     <article className='text-white flex-1'>
                         <h2 className='h2 text-very-light-blue'>Sobre Mí</h2>
-                        <h3 className='h3'>Me encuentro en proceso de convertirme un programador web Full-stack, pero me especializo en el desarrollo Front-end</h3>
+                        <h3 className='h3'>Me encuentro en proceso de convertirme en un programador web Full-stack, pero me especializo en el desarrollo Front-end</h3>
                         <p className='mb-6'>
                             Me desempeño en la creción de proyectos, utilizando herramientas de programación Front-End, estoy en constante aprendizaje, mejorando mis habilidades.
                         </p>
