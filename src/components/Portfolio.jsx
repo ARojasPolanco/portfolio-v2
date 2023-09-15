@@ -11,11 +11,11 @@ import img7 from '/images/pokemonapi.png'
 
 const Portfolio = () => {
     return (
-        <section className='section mt-56' id='Portfolio'>
+        <section className='mt-28' id='Portfolio'>
             <article className='container mx-auto'>
                 <div className='flex flex-col min-[800px]:flex-row gap-x-10'>
                     <motion.div
-                        variants={fadeIn('right', 0.3)}
+                        variants={fadeIn('right', 0.2)}
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.3 }}

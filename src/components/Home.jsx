@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { fadeIn } from "../services/variants.js"
 import { TypeAnimation } from "react-type-animation"
+import { Link } from "react-scroll"
 
 const Home = () => {
     return (
@@ -48,9 +49,9 @@ const Home = () => {
             </article>
             <article>
                 <article className="flex justify-center mt-8 text-white text-lg font-medium">
-                    <button className="btn">
+                    <Link to='Contact' smooth={true} duration={300} className="btn">
                         Contactame
-                    </button>
+                    </Link>
                 </article>
                 <article className="text-3xl flex justify-center gap-5 mt-10 mb-8">
                     <div className="text-whatsapp flex justify-center items-center hover:scale-125">

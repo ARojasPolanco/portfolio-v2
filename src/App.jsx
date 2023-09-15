@@ -12,27 +12,13 @@ function App() {
 
   return (
     <main className='min-h-screen w-full bg-site bg-cover bg-no-repeat overflow-hidden font-montserrat'>
-      <section>
-        <Navbar />
-      </section>
-      <section>
-        <Header />
-      </section>
-      <section>
-        <Home />
-      </section>
-      <section>
-        <AboutMe />
-      </section>
-      <section>
-        <Skills />
-      </section>
-      <section className='min-[1024px]:mt-[600px]'>
-        <Portfolio />
-      </section>
-      <section>
-        <ContactMe />
-      </section>
+      <Navbar />
+      <Header />
+      <Home />
+      <AboutMe />
+      <Skills />
+      <Portfolio />
+      <ContactMe />
     </main>
   )
 }

@@ -8,20 +8,17 @@ const AboutMe = () => {
         threshold: 0.5,
     })
     return (
-        <section id='About' className='section' ref={ref}>
+        <section id='About' ref={ref}>
             <article className='container mx-auto'>
                 <article className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 h-screen'>
                     <motion.div
                         variants={fadeIn('right', 0.3)}
                         initial='hidden'
                         whileInView={'show'}
-                        viewport={{ once: false, amount: 0.7 }} className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-color-dodge mx-auto'>
+                        viewport={{ once: false, amount: 0.7 }}
+                        className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-color-dodge mx-auto'>
                     </motion.div>
-                    <motion.article
-                        variants={fadeIn('left', 0.3)}
-                        initial='hidden'
-                        whileInView={'show'}
-                        viewport={{ once: false, amount: 0.7 }} className='text-white flex-1'>
+                    <article className='text-white flex-1'>
                         <h2 className='h2 text-very-light-blue'>Sobre Mí</h2>
                         <h3 className='h3'>Me encuentro en proceso de convertirme un programador web Full-stack, pero me especializo en el desarrollo Front-end</h3>
                         <p className='mb-6'>
@@ -63,7 +60,7 @@ const AboutMe = () => {
                                 </p>
                             </div>
                         </article>
-                    </motion.article>
+                    </article>
                 </article>
             </article>
         </section>
