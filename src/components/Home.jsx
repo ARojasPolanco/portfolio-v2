@@ -65,7 +65,7 @@ const Home = () => {
                         </a>
                     </div>
                     <div className="text-tailwind flex justify-center items-center hover:scale-125">
-                        <a href="https://ar.linkedin.com/" target='_blank'>
+                        <a href="https://www.linkedin.com/in/alan-rojas-polanco-97a4b5291/" target='_blank'>
                             <i className='bx bxl-linkedin' ></i>
                         </a>
                     </div>
