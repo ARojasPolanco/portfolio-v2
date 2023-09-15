@@ -6,7 +6,7 @@ const Header = () => {
                     <img src="/images/ap-logo.png" alt="" />
                 </div>
                 <article className="h-12 w-[170px] rounded-2xl flex justify-center text-xl font-medium text-white">
-                    <button className="btn cursor-pointer">Mis proyectos</button>
+                    <a className="btn cursor-pointer" href="./CV_ATS.pdf" download={' '}>Descargar CV</a>
                 </article>
             </header >
         </section>
