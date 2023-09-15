@@ -24,3 +24,17 @@
 .h3 {
     @apply font-orbitron font-semibold text-[26px] mb-6 leading-[46px];
 }
+
+html::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 5px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #333e48;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #82c6e6;
+}
