@@ -14,11 +14,7 @@ const Portfolio = () => {
         <section className='mt-28' id='Portfolio'>
             <article className='container mx-auto'>
                 <div className='flex flex-col min-[800px]:flex-row gap-x-10'>
-                    <motion.div
-                        variants={fadeIn('right', 0.2)}
-                        initial='hidden'
-                        whileInView={'show'}
-                        viewport={{ once: false, amount: 0.3 }}
+                    <div
                         className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
                         <div>
                             <h2 className='h2 leading-tight text-very-light-blue'>Mis principales <br />
@@ -89,12 +85,8 @@ const Portfolio = () => {
                                 </article>
                             </article>
                         </article>
-                    </motion.div>
-                    <motion.div
-                        variants={fadeIn('left', 0.2)}
-                        initial='hidden'
-                        whileInView={'show'}
-                        viewport={{ once: false, amount: 0.3 }}
+                    </div>
+                    <div
                         className='flex-1 flex flex-col gap-y-10 justify-center'>
                         {/* 4 */}
                         <article className=' border-2 border-white/50 rounded-xl overflow-hidden'>
@@ -180,7 +172,7 @@ const Portfolio = () => {
                                 </article>
                             </article>
                         </article>
-                    </motion.div>
+                    </div>
                 </div>
             </article>
         </section>

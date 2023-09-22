@@ -36,7 +36,7 @@ const ContactMe = () => {
                         <input className='bg-light-gray/5 border-b border-white text-white py-2 outline-none w-full placeholder:text-white focus:border-very-light-blue transition-all'
                             type="text"
                             placeholder='Email' />
-                        <textarea className='bg-light-gray/5 border-b border-white text-white py-2 outline-none w-full placeholder:text-white focus:border-very-light-blue transition-all resize-none mb-12' placeholder='Mensaje'></textarea>
+                        <textarea className='bg-light-gray/5 border-b border-white text-white py-2 outline-none w-full placeholder:text-white focus:border-very-light-blue transition-all resize-none mb-12' placeholder='Mensaje' />
                         <input className='btn w-[100px] text-white border border-light-gray/50' type="submit" value="Enviar" />
                     </form>
                 </div>
