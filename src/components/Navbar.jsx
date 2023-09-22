@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <section>
-            <section className='bg-bg-200/10 z-10 backdrop-blur-sm w-full p-2 fixed bottom-0 flex justify-between items-center sm:flex-col sm:top-0 sm:w-[50px] sm:rounded-full sm:my-auto sm:h-[250px] sm:right-4'>
+            <section className='bg-bg-200/10 z-50 backdrop-blur-sm w-full p-2 fixed bottom-0 flex justify-between items-center sm:flex-col sm:top-0 sm:w-[50px] sm:rounded-full sm:my-auto sm:h-[250px] sm:right-4'>
                 <Link to='Home' smooth={true} duration={300}>
                     <Tooltip title='Inicio' placement='left'>
                         <IconButton>
