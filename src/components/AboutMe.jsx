@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../services/variants.js';
 import { useTranslation } from 'react-i18next';
 
-const AboutMe = () => {
+const AboutMe = ({ isDark }) => {
     const { t } = useTranslation()
 
     const [ref, inView] = useInView({
@@ -19,7 +19,7 @@ const AboutMe = () => {
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.3 }}
-                        className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-color-dodge mx-auto'>
+                        className={`flex-1 ${isDark ? 'bg-about' : 'bg-about_dark'} bg-contain bg-no-repeat h-[640px] mx-auto`}>
                     </motion.div>
                     <article className='text-black flex-1 dark:text-white'>
                         <h2 className='h2 text-light-blue-sky dark:text-very-light-blue'>{t("about.title")}</h2>

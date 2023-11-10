@@ -14,6 +14,7 @@ export default {
     extend: {
       backgroundImage: {
         about: "url('/images/hand-bg.png')",
+        about_dark: "url('/images/hand-bg-dark.png')",
         dark: "url(/images/bg-all.jpg)",
         light: "url(/images/bg-light.jpg)"
       },

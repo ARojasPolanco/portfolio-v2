@@ -34,11 +34,11 @@ function App() {
   };
 
   return (
-    <main className={`min-h-screen w-full ${isDark ? 'bg-light' : 'bg-dark'} bg-cover bg-no-repeat overflow-hidden font-montserrat`}>
+    <main className={`min-h-screen w-full ${isDark ? 'bg-black/20' : 'bg-black/90'} bg-no-repeat overflow-hidden font-montserrat`}>
       <Navbar />
       <Header handleDark={handleDark} handleClickChangeLanguages={handleClickChangeLanguages} />
       <Home />
-      <AboutMe />
+      <AboutMe isDark={isDark} />
       <Skills />
       <Portfolio />
       <ContactMe />

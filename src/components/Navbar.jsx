@@ -18,35 +18,35 @@ const Navbar = () => {
                 <Link to='Home' smooth={true} duration={300}>
                     <Tooltip title={t("navbar.home")} placement='left'>
                         <IconButton>
-                            <HomeIcon className='text-white hover:text-netlify hover:scale-125' />
+                            <HomeIcon className='text-light-blue-sky hover:text-netlify hover:scale-125' />
                         </IconButton>
                     </Tooltip>
                 </Link>
                 <Link to='About' smooth={true} duration={300}>
                     <Tooltip title={t("navbar.about")} placement='left'>
                         <IconButton>
-                            <PersonIcon className='text-white hover:text-netlify hover:scale-125' />
+                            <PersonIcon className='text-light-blue-sky hover:text-netlify hover:scale-125' />
                         </IconButton>
                     </Tooltip>
                 </Link>
                 <Link to='Skills' smooth={true} duration={300}>
                     <Tooltip title={t("navbar.skills")} placement='left'>
                         <IconButton>
-                            <SchoolIcon className='text-white hover:text-netlify hover:scale-125' />
+                            <SchoolIcon className='text-light-blue-sky hover:text-netlify hover:scale-125' />
                         </IconButton>
                     </Tooltip>
                 </Link>
                 <Link to='Portfolio' smooth={true} duration={300}>
                     <Tooltip title={t("navbar.portfolio")} placement='left'>
                         <IconButton>
-                            <DashboardIcon className='text-white hover:text-netlify hover:scale-125' />
+                            <DashboardIcon className='text-light-blue-sky hover:text-netlify hover:scale-125' />
                         </IconButton>
                     </Tooltip>
                 </Link>
                 <Link to='Contact' smooth={true} duration={300}>
                     <Tooltip title={t("navbar.contact")} placement='left'>
                         <IconButton>
-                            <ContactPageIcon className='text-white hover:text-netlify hover:scale-125' />
+                            <ContactPageIcon className='text-light-blue-sky hover:text-netlify hover:scale-125' />
                         </IconButton>
                     </Tooltip>
                 </Link>
