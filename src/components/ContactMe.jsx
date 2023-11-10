@@ -17,8 +17,8 @@ const ContactMe = () => {
     };
 
     return (
-        <section className='h-screen mt-36' id='Contact'>
-            <div className="container mx-auto">
+        <section className='mt-36 pb-24' id='Contact'>
+            <div className="container">
                 <div className='flex flex-col lg:flex-row'>
                     <motion.div
                         variants={fadeIn('right', 0.3)}

@@ -30,14 +30,14 @@ const Home = () => {
                     </motion.h1>
                     <article className="text-[3rem] mt-4">
                         <span className="absolute waveBorder">
-                            <h2>Front-end</h2>
+                            <h2>Full-Stack</h2>
                         </span>
                         <span className="absolute waveAnimation">
-                            <h2>Front-end</h2>
+                            <h2>Full-Stack</h2>
                         </span>
                     </article>
                 </motion.article>
-                <article className="text-center mt-8 text-lg text-white min-[640px]: w-[310px] mx-auto">
+                <article className="text-center mt-8 text-lg text-white min-[640px]: w-[310px] mx-auto dark:text-black">
                     <motion.p
                         variants={fadeIn('down', 0.3)}
                         initial='hidden'

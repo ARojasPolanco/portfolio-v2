@@ -10,7 +10,7 @@ const AboutMe = () => {
     return (
         <section id='About' ref={ref}>
             <article className='container mx-auto'>
-                <article className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 h-screen'>
+                <article className='flex flex-col items-center gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 h-screen'>
                     <motion.div
                         variants={fadeIn('right', 0.3)}
                         initial='hidden'
@@ -20,7 +20,9 @@ const AboutMe = () => {
                     </motion.div>
                     <article className='text-white flex-1'>
                         <h2 className='h2 text-very-light-blue'>Sobre Mí</h2>
-                        <h3 className='h3'>Me encuentro en proceso de convertirme en un programador web Full-stack, pero me especializo en el desarrollo Front-end</h3>
+                        <h3 className='h3'>Soy desarrollador web Full-stack, pero me especializo en el desarrollo Front-end.
+                            <br />
+                            Me forme academicamente en Academlo y de manera autodidacta durante los últimos 2 años</h3>
                         <p className='mb-6'>
                             Me desempeño en la creción de proyectos, utilizando herramientas de programación Front-End, estoy en constante aprendizaje, mejorando mis habilidades.
                         </p>
@@ -29,10 +31,10 @@ const AboutMe = () => {
                                 <div className='text-[40px] font-aldrich text-very-light-blue'>
                                     {
                                         inView ?
-                                            <CountUp start={0} end={1} duration={5} /> : null}
+                                            <CountUp start={0} end={2} duration={5} /> : null}
                                 </div>
                                 <p className='font-orbitron text-sm tracking-[2px]'>
-                                    Año de <br />
+                                    Años de <br />
                                     experiencia
                                 </p>
                             </div>
