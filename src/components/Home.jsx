@@ -2,8 +2,12 @@ import { motion } from "framer-motion"
 import { fadeIn } from "../services/variants.js"
 import { TypeAnimation } from "react-type-animation"
 import { Link } from "react-scroll"
+import { useTranslation } from "react-i18next"
 
 const Home = () => {
+
+    const { t } = useTranslation()
+
     return (
         <section className="sm:flex sm:items-center sm:gap-x-28 justify-center mb-8">
             <article>
@@ -14,11 +18,13 @@ const Home = () => {
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}>
                         <div className="borderWhite text-light-blue-sky">
-                            <span className="text-bg-100">Soy </span>
+                            <span className="text-bg-100">{t("home.title")} </span>
                             <br />
                             <TypeAnimation
                                 sequence={[
                                     'Alan Polanco',
+                                    2000,
+                                    'Web developer',
                                     2000,
                                     'Desarrollador',
                                     2000
@@ -43,14 +49,14 @@ const Home = () => {
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.7 }}>
-                        Siempre en constante aprendizaje, mejorando mis habilidades.
+                        {t("home.foot")}
                     </motion.p>
                 </article>
             </article>
             <article>
                 <article className="flex justify-center mt-8 text-black text-lg font-medium dark:text-white">
                     <Link to='Contact' smooth={true} duration={300} className="btn">
-                        Contactame
+                        {t("home.buttom")}
                     </Link>
                 </article>
                 <article className="text-3xl flex justify-center gap-5 mt-10 mb-8">

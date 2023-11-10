@@ -2,8 +2,11 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../services/variants.js';
+import { useTranslation } from 'react-i18next';
 
 const AboutMe = () => {
+    const { t } = useTranslation()
+
     const [ref, inView] = useInView({
         threshold: 0.5,
     })
@@ -19,14 +22,12 @@ const AboutMe = () => {
                         className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-color-dodge mx-auto'>
                     </motion.div>
                     <article className='text-black flex-1 dark:text-white'>
-                        <h2 className='h2 text-light-blue-sky dark:text-very-light-blue'>Sobre Mí</h2>
-                        <h3 className='h3'>Soy desarrollador web Full-stack, pero me especializo en el desarrollo Front-end.
-                            <br />
-                            Me forme academicamente en Academlo y de manera autodidacta durante los últimos 2 años</h3>
+                        <h2 className='h2 text-light-blue-sky dark:text-very-light-blue'>{t("about.title")}</h2>
+                        <h3 className='h3'>{t("about.text")}</h3>
                         <p className='mb-6'>
-                            Me desempeño en la creción de proyectos, utilizando herramientas de programación Front-End, estoy en constante aprendizaje, mejorando mis habilidades.
+                            {t("about.foot")}
                         </p>
-                        <article className='flex gap-2'>
+                        <article className='flex flex-col gap-2'>
                             <div>
                                 <div className='text-[40px] font-aldrich text-light-blue-sky dark:text-very-light-blue'>
                                     {
@@ -34,8 +35,7 @@ const AboutMe = () => {
                                             <CountUp start={0} end={2} duration={5} /> : null}
                                 </div>
                                 <p className='font-orbitron text-sm tracking-[2px]'>
-                                    Años de <br />
-                                    experiencia
+                                    {t("about.fyear")}
                                 </p>
                             </div>
                             <div>
@@ -46,8 +46,7 @@ const AboutMe = () => {
                                     +
                                 </div>
                                 <p className='font-orbitron text-sm tracking-[2px]'>
-                                    Proyectos <br />
-                                    realizados
+                                    {t("about.syear")}
                                 </p>
                             </div>
                             <div>
@@ -57,8 +56,7 @@ const AboutMe = () => {
                                             <CountUp start={0} end={7} duration={5} /> : null}
                                 </div>
                                 <p className='font-orbitron text-sm tracking-[2px]'>
-                                    Lenguajes <br />
-                                    aprendidos
+                                    {t("about.tyear")}
                                 </p>
                             </div>
                         </article>

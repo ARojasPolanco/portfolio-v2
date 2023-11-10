@@ -7,10 +7,12 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Portfolio from './components/Portfolio'
 import Skills from './components/Skills'
+import { useTranslation } from 'react-i18next'
 
 function App() {
   const [isDark, setIsDark] = useState(true)
 
+  //DarkMode
   useEffect(() => {
     if (isDark) {
       document.documentElement.classList.remove('dark')
@@ -24,10 +26,17 @@ function App() {
     setIsDark(!isDark)
   }
 
+  //Translate
+  const { i18n } = useTranslation();
+
+  const handleClickChangeLanguages = () => {
+    i18n.changeLanguage(i18n.language === "es" ? "en" : "es");
+  };
+
   return (
     <main className={`min-h-screen w-full ${isDark ? 'bg-light' : 'bg-dark'} bg-cover bg-no-repeat overflow-hidden font-montserrat`}>
       <Navbar />
-      <Header handleDark={handleDark} />
+      <Header handleDark={handleDark} handleClickChangeLanguages={handleClickChangeLanguages} />
       <Home />
       <AboutMe />
       <Skills />

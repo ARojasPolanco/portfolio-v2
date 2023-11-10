@@ -1,0 +1,44 @@
+{
+    "header": {
+        "buttom": "Download CV"
+    },
+    "home": {
+        "title": "I'm",
+        "typing": "Developer",
+        "foot": "Always constantly learning, improving my skills.",
+        "buttom": "Contact me"
+    },
+    "about": {
+        "title": "ABOUT ME",
+        "text": "I am a Full-stack web developer, but I specialize in Front-end development. I trained academically at Academlo and self-taught for the last 2 years.",
+        "foot": "I work in the growth of projects, using Front-End programming tools, I am constantly learning, improving my skills.",
+        "fyear": "Years of experience",
+        "syear": "Projects done",
+        "tyear": "Learned languages"
+    },
+    "skills": {
+        "title": "SKILLS",
+        "text": "These are some of the tools I worked with"
+    },
+    "portfolio": {
+        "title": "SOME PROJECTS",
+        "text": "These are my main projects carried out individually and in groups, in these I tested different programming tools and GitHub to work together with my colleagues",
+        "wa1": "Application of functional climate",
+        "rp1": "Phrases, authors and background randoms",
+        "uc1": "Application for creating userss"
+    },
+    "contact": {
+        "title": "CONTACT ME",
+        "text": "Let's work together!",
+        "name": "Name",
+        "message": "Message",
+        "buttom": "Send"
+    },
+    "navbar": {
+        "home": "Home",
+        "about": "About me",
+        "skills": "Skills",
+        "portfolio": "Portfolio",
+        "contact": "Contact me"
+    }
+}

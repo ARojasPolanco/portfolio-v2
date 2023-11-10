@@ -1,6 +1,3 @@
-import { motion } from 'framer-motion';
-import { fadeIn } from '../services/variants.js';
-
 import img1 from '/images/frontendmentor.png'
 import img2 from '/images/ecommerce.png'
 import img3 from '/images/weatherapp.png'
@@ -8,8 +5,11 @@ import img4 from '/images/randomphrases.png'
 import img5 from '/images/rickandmorty.png'
 import img6 from '/images/usercrudapi.png'
 import img7 from '/images/pokemonapi.png'
+import { useTranslation } from 'react-i18next'
 
 const Portfolio = () => {
+    const { t } = useTranslation()
+
     return (
         <section className='mt-28' id='Portfolio'>
             <article className='container mx-auto'>
@@ -17,10 +17,9 @@ const Portfolio = () => {
                     <div
                         className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
                         <div>
-                            <h2 className='h2 leading-tight text-light-blue-sky dark:text-very-light-blue'>Mis principales <br />
-                                proyectos
+                            <h2 className='h2 leading-tight text-light-blue-sky dark:text-very-light-blue'>{t("portfolio.title")}
                             </h2>
-                            <p className='max-w-sm mb-16 text-black font-aldrich dark:text-white'>Estos son mis principales proyectos realizados de forma individual y grupal, en estos fui probando diferentes herramientas de programación y <span className='text-lg underline underline-offset-2'>GitHub</span> para trabajar en conjunto con mis compañeros</p>
+                            <p className='max-w-sm mb-16 text-black font-aldrich dark:text-white'>{t("portfolio.text")}</p>
                         </div>
                         {/* 1 */}
                         <article className=' border-2 border-white/50 rounded-xl overflow-hidden'>
@@ -70,7 +69,7 @@ const Portfolio = () => {
                                 <div className='group-hover:bg-black/80 w-full h-full absolute z-40 transition-all duration-300'></div>
                                 <img className='group-hover:scale-125 transition-all duration-500' src={img3} alt="" />
                                 <div className='text-white absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                                    <span className='text-very-light-blue font-medium font-montserrat'>Aplicación del clima funcional</span>
+                                    <span className='text-very-light-blue font-medium font-montserrat'>{t("portfolio.wa1")}</span>
                                 </div>
                                 <div className='text-white text-lg absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>Weather App</div>
                             </div>
@@ -94,7 +93,7 @@ const Portfolio = () => {
                                 <div className='group-hover:bg-black/80 w-full h-full absolute z-40 transition-all duration-300'></div>
                                 <img className='group-hover:scale-125 transition-all duration-500' src={img4} alt="" />
                                 <div className='text-white absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                                    <span className='text-very-light-blue font-medium font-montserrat'>Frases, autores y  fondo randoms</span>
+                                    <span className='text-very-light-blue font-medium font-montserrat'>{t("portfolio.rp1")}</span>
                                 </div>
                                 <div className='text-white text-lg absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>Random phrases</div>
                             </div>
@@ -136,7 +135,7 @@ const Portfolio = () => {
                                 <div className='group-hover:bg-black/80 w-full h-full absolute z-40 transition-all duration-300'></div>
                                 <img className='group-hover:scale-125 transition-all duration-500' src={img6} alt="" />
                                 <div className='text-white absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                                    <span className='text-very-light-blue font-medium font-montserrat'>Aplicación para la creación de usuarios</span>
+                                    <span className='text-very-light-blue font-medium font-montserrat'>{t("portfolio.uc1")}</span>
                                 </div>
                                 <div className='text-white text-lg absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>User crud Api</div>
                             </div>

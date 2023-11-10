@@ -1,0 +1,44 @@
+{
+    "header": {
+        "buttom": "Descargar CV"
+    },
+    "home": {
+        "title": "Soy",
+        "typing": "Desarrollador",
+        "foot": "Siempre en constante aprendizaje, mejorando mis habilidades.",
+        "buttom": "Contactame"
+    },
+    "about": {
+        "title": "SOBRE MÍ",
+        "text": "Soy desarrollador web Full-stack, pero me especializo en el desarrollo Front-end. Me forme academicamente en Academlo y de manera autodidacta durante los últimos 2 años",
+        "foot": "Me desempeño en la creción de proyectos, utilizando herramientas de programación Front-End, estoy en constante aprendizaje, mejorando mis habilidades.",
+        "fyear": "Años de experiencia",
+        "syear": "Proyectos realizados",
+        "tyear": "Lenguajes aprendidos"
+    },
+    "skills": {
+        "title": "HABILIDADES",
+        "text": "Estás son algunas de las herramientas con las que trabajé"
+    },
+    "portfolio": {
+        "title": "ALGUNOS PROYECTOS",
+        "text": "Estos son mis principales proyectos realizados de forma individual y grupal, en estos fui probando diferentes herramientas de programación y GitHub para trabajar en conjunto con mis compañeros",
+        "wa1": "Aplicación del clima funcional",
+        "rp1": "Frases, autores y fondo randoms",
+        "uc1": "Aplicación para la creación de usuarios"
+    },
+    "contact": {
+        "title": "CONTACTAME",
+        "text": "¡Trabajemos juntos!",
+        "name": "Nombre",
+        "message": "Mensaje",
+        "buttom": "Enviar"
+    },
+    "navbar": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "skills": "Habilidades",
+        "portfolio": "Proyectos",
+        "contact": "Contacto"
+    }
+}

@@ -6,8 +6,11 @@ import tailwind from '/images/tailwind-logo.png'
 import bootstrap from '/images/bootstrap-logo.png'
 import typescript from '/images/typescrpt-logo.png'
 import github from '/images/github-logo.png'
+import { useTranslation } from 'react-i18next'
 
 const Skiils = () => {
+
+    const { t } = useTranslation()
 
     const techs = [
         {
@@ -65,8 +68,8 @@ const Skiils = () => {
             <div className='container mx-auto'>
                 <article className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
                     <article>
-                        <h2 className='h2 text-light-blue-sky dark:text-very-light-blue'>Habilidades</h2>
-                        <h3 className='h3 text-black dark:text-white'>Estás son algunas de las herramientas con las que trabajé</h3>
+                        <h2 className='h2 text-light-blue-sky dark:text-very-light-blue'>{t("skills.title")}</h2>
+                        <h3 className='h3 text-black dark:text-white'>{t("skills.text")}</h3>
                     </article>
                     <article className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center px-12 sm:px-0'>
                         {
