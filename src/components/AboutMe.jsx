@@ -15,11 +15,11 @@ const AboutMe = () => {
                         variants={fadeIn('right', 0.3)}
                         initial='hidden'
                         whileInView={'show'}
-                        viewport={{ once: false, amount: 0.7 }}
+                        viewport={{ once: false, amount: 0.3 }}
                         className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-color-dodge mx-auto'>
                     </motion.div>
-                    <article className='text-white flex-1'>
-                        <h2 className='h2 text-very-light-blue'>Sobre Mí</h2>
+                    <article className='text-black flex-1 dark:text-white'>
+                        <h2 className='h2 text-light-blue-sky dark:text-very-light-blue'>Sobre Mí</h2>
                         <h3 className='h3'>Soy desarrollador web Full-stack, pero me especializo en el desarrollo Front-end.
                             <br />
                             Me forme academicamente en Academlo y de manera autodidacta durante los últimos 2 años</h3>
@@ -28,7 +28,7 @@ const AboutMe = () => {
                         </p>
                         <article className='flex gap-2'>
                             <div>
-                                <div className='text-[40px] font-aldrich text-very-light-blue'>
+                                <div className='text-[40px] font-aldrich text-light-blue-sky dark:text-very-light-blue'>
                                     {
                                         inView ?
                                             <CountUp start={0} end={2} duration={5} /> : null}
@@ -39,7 +39,7 @@ const AboutMe = () => {
                                 </p>
                             </div>
                             <div>
-                                <div className='text-[40px] font-aldrich text-very-light-blue'>
+                                <div className='text-[40px] font-aldrich text-light-blue-sky dark:text-very-light-blue'>
                                     {
                                         inView ?
                                             <CountUp start={0} end={8} duration={8} /> : null}
@@ -51,7 +51,7 @@ const AboutMe = () => {
                                 </p>
                             </div>
                             <div>
-                                <div className='text-[40px] font-aldrich text-very-light-blue'>
+                                <div className='text-[40px] font-aldrich text-light-blue-sky dark:text-very-light-blue'>
                                     {
                                         inView ?
                                             <CountUp start={0} end={7} duration={5} /> : null}

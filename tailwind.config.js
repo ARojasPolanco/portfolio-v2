@@ -14,7 +14,8 @@ export default {
     extend: {
       backgroundImage: {
         about: "url('/images/hand-bg.png')",
-        site: "url(/images/bg-all.jpg)"
+        dark: "url(/images/bg-all.jpg)",
+        light: "url(/images/bg-light.jpg)"
       },
     },
     colors: {

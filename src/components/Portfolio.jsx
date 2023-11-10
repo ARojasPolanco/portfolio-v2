@@ -17,10 +17,10 @@ const Portfolio = () => {
                     <div
                         className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
                         <div>
-                            <h2 className='h2 leading-tight text-very-light-blue'>Mis principales <br />
+                            <h2 className='h2 leading-tight text-light-blue-sky dark:text-very-light-blue'>Mis principales <br />
                                 proyectos
                             </h2>
-                            <p className='max-w-sm mb-16 text-white font-aldrich'>Estos son mis principales proyectos realizados de forma individual y grupal, en estos fui probando diferentes herramientas de programación y <span className='text-lg underline underline-offset-2'>GitHub</span> para trabajar en conjunto con mis compañeros</p>
+                            <p className='max-w-sm mb-16 text-black font-aldrich dark:text-white'>Estos son mis principales proyectos realizados de forma individual y grupal, en estos fui probando diferentes herramientas de programación y <span className='text-lg underline underline-offset-2'>GitHub</span> para trabajar en conjunto con mis compañeros</p>
                         </div>
                         {/* 1 */}
                         <article className=' border-2 border-white/50 rounded-xl overflow-hidden'>
@@ -33,13 +33,13 @@ const Portfolio = () => {
                                 <div className='text-white text-lg absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>Front End Mentor</div>
                             </div>
                             <article className='flex gap-x-12 justify-center p-1'>
-                                <article className='text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
+                                <article className='text-black dark:text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-github'></i>
                                     <a href="https://github.com/ARojasPolanco/FrontEndMentor" target="_blank">GitHub</a>
                                 </article>
                                 <article className='flex justify-center items-center gap-x-2 text-netlify w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-netlify'></i>
-                                    <a className="text-white" href="https://frontendmentor1challenges.netlify.app/" target="_blank">Netlify</a>
+                                    <a className="text-black dark:text-white" href="https://frontendmentor1challenges.netlify.app/" target="_blank">Netlify</a>
                                 </article>
                             </article>
                         </article>
@@ -54,13 +54,13 @@ const Portfolio = () => {
                                 <div className='text-white text-lg absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>E-commerce</div>
                             </div>
                             <article className='flex gap-x-12 justify-center p-1'>
-                                <article className='text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
+                                <article className='text-black dark:text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-github'></i>
                                     <a href="https://github.com/ARojasPolanco/CarritoDeCompras" target="_blank">GitHub</a>
                                 </article>
                                 <article className='flex justify-center items-center gap-x-2 text-netlify w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-netlify'></i>
-                                    <a className="text-white" href="https://carrito-de-compras-academlo1.netlify.app" target="_blank">Netlify</a>
+                                    <a className="text-black dark:text-white" href="https://carrito-de-compras-academlo1.netlify.app" target="_blank">Netlify</a>
                                 </article>
                             </article>
                         </article>
@@ -75,13 +75,13 @@ const Portfolio = () => {
                                 <div className='text-white text-lg absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>Weather App</div>
                             </div>
                             <article className='flex gap-x-12 justify-center p-1'>
-                                <article className='text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
+                                <article className='text-black dark:text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-github'></i>
                                     <a href="https://github.com/ARojasPolanco/Project-2-react" target="_blank">GitHub</a>
                                 </article>
                                 <article className='flex justify-center items-center gap-x-2 text-netlify w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-netlify'></i>
-                                    <a className="text-white" href="https://weather-api-academlo.netlify.app" target="_blank">Netlify</a>
+                                    <a className="text-black dark:text-white" href="https://weather-api-academlo.netlify.app" target="_blank">Netlify</a>
                                 </article>
                             </article>
                         </article>
@@ -99,13 +99,13 @@ const Portfolio = () => {
                                 <div className='text-white text-lg absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>Random phrases</div>
                             </div>
                             <article className='flex gap-x-12 justify-center p-1'>
-                                <article className='text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
+                                <article className='text-black dark:text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-github'></i>
                                     <a href="https://github.com/ARojasPolanco/Project-1-react" target="_blank">GitHub</a>
                                 </article>
                                 <article className='flex justify-center items-center gap-x-2 text-netlify w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-netlify'></i>
-                                    <a className="text-white" href="https://project-1-react-academlo.netlify.app" target="_blank">Netlify</a>
+                                    <a className="text-black dark:text-white" href="https://project-1-react-academlo.netlify.app" target="_blank">Netlify</a>
                                 </article>
                             </article>
                         </article>
@@ -120,13 +120,13 @@ const Portfolio = () => {
                                 <div className='text-white text-lg absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>Rick and morty Api</div>
                             </div>
                             <article className='flex gap-x-12 justify-center p-1'>
-                                <article className='text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
+                                <article className='text-black dark:text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-github'></i>
                                     <a href="https://github.com/ARojasPolanco/preject-3-academlo" target="_blank">GitHub</a>
                                 </article>
                                 <article className='flex justify-center items-center gap-x-2 text-netlify w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-netlify'></i>
-                                    <a className="text-white" href="https://rickandmortydimensions.netlify.app" target="_blank">Netlify</a>
+                                    <a className="text-black dark:text-white" href="https://rickandmortydimensions.netlify.app" target="_blank">Netlify</a>
                                 </article>
                             </article>
                         </article>
@@ -141,13 +141,13 @@ const Portfolio = () => {
                                 <div className='text-white text-lg absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>User crud Api</div>
                             </div>
                             <article className='flex gap-x-12 justify-center p-1'>
-                                <article className='text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
+                                <article className='text-black dark:text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-github'></i>
                                     <a href="https://github.com/ARojasPolanco/Project-2-react" target="_blank">GitHub</a>
                                 </article>
                                 <article className='flex justify-center items-center gap-x-2 text-netlify w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-netlify'></i>
-                                    <a className="text-white" href="https://weather-api-academlo.netlify.app" target="_blank">Netlify</a>
+                                    <a className="text-black dark:text-white" href="https://weather-api-academlo.netlify.app" target="_blank">Netlify</a>
                                 </article>
                             </article>
                         </article>
@@ -162,13 +162,13 @@ const Portfolio = () => {
                                 <div className='text-white text-lg absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>Pokemon Api</div>
                             </div>
                             <article className='flex gap-x-12 justify-center p-1'>
-                                <article className='text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
+                                <article className='text-black dark:text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-github'></i>
                                     <a href="https://github.com/ARojasPolanco/Project-5" target="_blank">GitHub</a>
                                 </article>
                                 <article className='flex justify-center items-center gap-x-2 text-netlify w-[100px] hover:bg-bg-100'>
                                     <i className='bx bxl-netlify'></i>
-                                    <a className="text-white" href="https://pokedexapiacademlo.netlify.app" target="_blank">Netlify</a>
+                                    <a className="text-black dark:text-white" href="https://pokedexapiacademlo.netlify.app" target="_blank">Netlify</a>
                                 </article>
                             </article>
                         </article>

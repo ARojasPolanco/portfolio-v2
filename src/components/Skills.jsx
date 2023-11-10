@@ -65,15 +65,15 @@ const Skiils = () => {
             <div className='container mx-auto'>
                 <article className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
                     <article>
-                        <h2 className='h2 text-very-light-blue'>Habilidades</h2>
-                        <h3 className='h3 text-white'>Estás son algunas de las herramientas con las que trabajé</h3>
+                        <h2 className='h2 text-light-blue-sky dark:text-very-light-blue'>Habilidades</h2>
+                        <h3 className='h3 text-black dark:text-white'>Estás son algunas de las herramientas con las que trabajé</h3>
                     </article>
                     <article className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center px-12 sm:px-0'>
                         {
                             techs.map(({ id, src, title, style }) => (
                                 <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
                                     <img src={src} alt="" className='w-20 mx-auto' />
-                                    <p className='mt-4'>{title}</p>
+                                    <p className='mt-4 text-black dark:text-white'>{title}</p>
                                 </div>
                             ))
                         }

@@ -25,7 +25,7 @@ function App() {
   }
 
   return (
-    <main className='min-h-screen w-full bg-site bg-cover bg-no-repeat overflow-hidden font-montserrat'>
+    <main className={`min-h-screen w-full ${isDark ? 'bg-light' : 'bg-dark'} bg-cover bg-no-repeat overflow-hidden font-montserrat`}>
       <Navbar />
       <Header handleDark={handleDark} />
       <Home />

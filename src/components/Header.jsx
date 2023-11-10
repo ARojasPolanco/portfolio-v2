@@ -1,6 +1,5 @@
 import FormControlLabel from '@mui/material/FormControlLabel'
 import Switch from '@mui/material/Switch';
-import { color } from 'framer-motion';
 
 const Header = ({ handleDark }) => {
     return (
@@ -20,9 +19,8 @@ const Header = ({ handleDark }) => {
                         />
                     }
                     label="🌗"
-                    className='text-white font-montserrat'
                 />
-                <article className="h-12 w-[170px] rounded-2xl flex justify-center text-xl font-medium text-white">
+                <article className="h-12 w-[170px] rounded-2xl flex justify-center text-xl font-medium text-black dark:text-white">
                     <a className="btn cursor-pointer" href="./CV_ATS.pdf" download={' '}>Descargar CV</a>
                 </article>
             </header >

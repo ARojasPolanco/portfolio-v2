@@ -37,7 +37,7 @@ const Home = () => {
                         </span>
                     </article>
                 </motion.article>
-                <article className="text-center mt-8 text-lg text-white min-[640px]: w-[310px] mx-auto dark:text-black">
+                <article className="text-center mt-8 text-lg text-black min-[640px]: w-[310px] mx-auto dark:text-white">
                     <motion.p
                         variants={fadeIn('down', 0.3)}
                         initial='hidden'
@@ -48,7 +48,7 @@ const Home = () => {
                 </article>
             </article>
             <article>
-                <article className="flex justify-center mt-8 text-white text-lg font-medium">
+                <article className="flex justify-center mt-8 text-black text-lg font-medium dark:text-white">
                     <Link to='Contact' smooth={true} duration={300} className="btn">
                         Contactame
                     </Link>
