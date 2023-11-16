@@ -6,6 +6,7 @@ import tailwind from '/images/tailwind-logo.png'
 import bootstrap from '/images/bootstrap-logo.png'
 import typescript from '/images/typescrpt-logo.png'
 import github from '/images/github-logo.png'
+import node from '/images/node-js.png'
 import { useTranslation } from 'react-i18next'
 
 const Skiils = () => {
@@ -60,6 +61,12 @@ const Skiils = () => {
             src: github,
             title: 'Git-Hub',
             style: 'shadow-black'
+        },
+        {
+            id: 9,
+            src: node,
+            title: 'NodeJS',
+            style: 'shadow-node'
         }
     ]
 

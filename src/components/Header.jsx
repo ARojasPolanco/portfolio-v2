@@ -25,7 +25,7 @@ const Header = ({ handleDark, handleClickChangeLanguages }) => {
                 />
                 <button className='btn text-black dark:text-white' onClick={handleClickChangeLanguages}>EN/ES</button>
                 <article className="h-12 w-[170px] rounded-2xl flex justify-center text-xl font-medium text-black dark:text-white">
-                    <a className="btn cursor-pointer" href="./CV_ATS.pdf" download={' '}>{t("header.buttom")}</a>
+                    <a className="btn cursor-pointer" href="./cv_hf.pdf" download={' '}>{t("header.buttom")}</a>
                 </article>
             </header >
         </section>
