@@ -40,5 +40,8 @@
         "skills": "Skills",
         "portfolio": "Portfolio",
         "contact": "Contact me"
+    },
+    "buttom": {
+        "change": "See more"
     }
 }

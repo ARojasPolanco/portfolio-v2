@@ -40,5 +40,8 @@
         "skills": "Habilidades",
         "portfolio": "Proyectos",
         "contact": "Contacto"
+    },
+    "buttom": {
+        "change": "Ver más"
     }
 }
