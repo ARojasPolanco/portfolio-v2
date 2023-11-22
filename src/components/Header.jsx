@@ -16,7 +16,7 @@ const Header = ({ handleDark, handleClickChangeLanguages }) => {
                     sx={{
                         display: 'block',
                     }}
-                    control={
+                    control={ 
                         <Switch
                             onClick={handleDark}
                             color="primary"
