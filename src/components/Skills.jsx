@@ -71,7 +71,7 @@ const Skiils = () => {
     ]
 
     return (
-        <section id='Skills' className='section max-[412px]:mt-56 mt-16'>
+        <section id='Skills' className='section mt-10'>
             <div className='container mx-auto'>
                 <article className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
                     <h2 className='h2 text-light-blue-sky dark:text-very-light-blue text-center'>{t("skills.title")}</h2>

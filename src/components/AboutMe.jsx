@@ -23,6 +23,9 @@ const AboutMe = () => {
                     <img src={fullstack} alt="certificado Academlo" />
                 </div>
             </div>
+            <div className='flex justify-center mt-10'>
+                <a className='btn' href="https://certificatesap.netlify.app/" target='_blank'>{t("buttom.certificate")}</a>
+            </div>
         </section>
     )
 }
