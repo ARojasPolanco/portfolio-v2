@@ -16,6 +16,9 @@
         "syear": "Proyectos realizados",
         "tyear": "Lenguajes aprendidos"
     },
+    "certificate": {
+        "title": "Certificados"
+    },
     "skills": {
         "title": "HABILIDADES",
         "text": "Estás son algunas de las herramientas con las que trabajé"
@@ -42,6 +45,7 @@
         "contact": "Contacto"
     },
     "buttom": {
-        "change": "Ver más"
+        "change": "Ver más",
+        "certificate": "Ver más"
     }
 }

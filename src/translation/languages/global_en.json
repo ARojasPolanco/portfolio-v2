@@ -16,6 +16,9 @@
         "syear": "Projects done",
         "tyear": "Learned languages"
     },
+    "certificate": {
+        "title": "Certificates"
+    },
     "skills": {
         "title": "SKILLS",
         "text": "These are some of the tools I worked with"
@@ -42,6 +45,7 @@
         "contact": "Contact me"
     },
     "buttom": {
-        "change": "See more"
+        "change": "See more",
+        "certificate": "See more"
     }
 }

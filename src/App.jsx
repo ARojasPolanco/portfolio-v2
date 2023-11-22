@@ -38,7 +38,7 @@ function App() {
       <Navbar />
       <Header handleDark={handleDark} handleClickChangeLanguages={handleClickChangeLanguages} />
       <Home />
-      <AboutMe isDark={isDark} />
+      <AboutMe />
       <Skills />
       <Portfolio />
       <ContactMe />
