@@ -1,4 +1,7 @@
 import { useTranslation } from 'react-i18next';
+import fundamentos from '../../public/images/fundamentos.png'
+import react from '../../public/images/react.js.png'
+import fullstack from '../../public/images/full-stack.png'
 
 const AboutMe = () => {
     const { t } = useTranslation()
@@ -15,9 +18,9 @@ const AboutMe = () => {
             <h2 className='h2 text-light-blue-sky dark:text-very-light-blue text-center'>{t("certificate.title")}</h2>
             <div className='max-w-[450px] mx-auto lg:max-w-[350px] xl:max-w-[350px]'>
                 <div className='flex flex-col justify-center gap-10 min-[1136px]:flex-row p-2'>
-                    <img src="/public/images/fundamentos.png" alt="" />
-                    <img src="/public/images/react.js.png" alt="" />
-                    <img src="/public/images/full-stack.png" alt="" />
+                    <img src={fundamentos} alt="certificado Academlo" />
+                    <img src={react} alt="certificado Academlo" />
+                    <img src={fullstack} alt="certificado Academlo" />
                 </div>
             </div>
         </section>
