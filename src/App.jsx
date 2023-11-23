@@ -36,7 +36,7 @@ function App() {
   return (
     <main className={`min-h-screen w-full ${isDark ? 'bg-black/20' : 'bg-black/90'} bg-no-repeat overflow-hidden font-montserrat`}>
       <Navbar />
-      <Header handleDark={handleDark} handleClickChangeLanguages={handleClickChangeLanguages} />
+      <Header handleDark={handleDark} handleClickChangeLanguages={handleClickChangeLanguages} isDark={isDark} />
       <Home />
       <AboutMe />
       <Skills />

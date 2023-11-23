@@ -65,7 +65,7 @@ const Home = () => {
                             <i className='bx bxl-whatsapp'></i>
                         </a>
                     </div>
-                    <div className="flex justify-center items-center hover:scale-125">
+                    <div className="flex justify-center items-center hover:scale-125 dark:text-white">
                         <a href="https://github.com/ARojasPolanco" target='_blank'>
                             <i className='bx bxl-github'></i>
                         </a>

@@ -1,8 +1,7 @@
-import FormControlLabel from '@mui/material/FormControlLabel'
-import Switch from '@mui/material/Switch';
+
 import { useTranslation } from 'react-i18next';
 
-const Header = ({ handleDark, handleClickChangeLanguages }) => {
+const Header = ({ handleDark, handleClickChangeLanguages, isDark }) => {
 
     const { t } = useTranslation()
 
@@ -12,17 +11,7 @@ const Header = ({ handleDark, handleClickChangeLanguages }) => {
                 <div className="h-[130px] aspect-square borderImg relative">
                     <img src="/images/ap-logo.png" alt="" />
                 </div>
-                <FormControlLabel
-                    sx={{
-                        display: 'block',
-                    }}
-                    control={
-                        <Switch
-                            onClick={handleDark}
-                            color="primary"
-                        />
-                    }
-                />
+                <button className={`text-2xl ${isDark ? 'text-light-blue-sky' : 'text-white'}`} onClick={handleDark}>{isDark ? <i class='bx bxs-moon' ></i> : <i class='bx bxs-sun'></i>}</button>
                 <button className='btn text-black dark:text-white' onClick={handleClickChangeLanguages}>EN/ES</button>
                 <article className="h-12 w-[170px] rounded-2xl flex justify-center text-xl font-medium text-black dark:text-white">
                     <a className="btn cursor-pointer" href="./cv_hf.pdf" download={' '}>{t("header.buttom")}</a>
