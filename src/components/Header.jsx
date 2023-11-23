@@ -8,7 +8,7 @@ const Header = ({ handleDark, handleClickChangeLanguages }) => {
 
     return (
         <section id="Home">
-            <header className="px-2 flex items-center justify-between max-w-[850px] mx-auto">
+            <header className="px-2 flex flex-col gap-6 md:flex-row items-center justify-between max-w-[850px] mx-auto">
                 <div className="h-[130px] aspect-square borderImg relative">
                     <img src="/images/ap-logo.png" alt="" />
                 </div>
@@ -16,7 +16,7 @@ const Header = ({ handleDark, handleClickChangeLanguages }) => {
                     sx={{
                         display: 'block',
                     }}
-                    control={ 
+                    control={
                         <Switch
                             onClick={handleDark}
                             color="primary"
