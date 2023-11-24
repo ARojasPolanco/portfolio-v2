@@ -11,7 +11,7 @@ const Header = ({ handleDark, handleClickChangeLanguages, isDark }) => {
                 <div className="h-[130px] aspect-square borderImg relative">
                     <img src="/images/ap-logo.png" alt="" />
                 </div>
-                <button className={`text-2xl ${isDark ? 'text-light-blue-sky' : 'text-white'}`} onClick={handleDark}>{isDark ? <i class='bx bxs-moon' ></i> : <i class='bx bxs-sun'></i>}</button>
+                <button className={`text-2xl ${isDark ? 'text-light-blue-sky' : 'text-white'}`} onClick={handleDark}>{isDark ? <i className='bx bxs-moon' ></i> : <i className='bx bxs-sun'></i>}</button>
                 <button className='btn text-black dark:text-white' onClick={handleClickChangeLanguages}>EN/ES</button>
                 <article className="h-12 w-[170px] rounded-2xl flex justify-center text-xl font-medium text-black dark:text-white">
                     <a className="btn cursor-pointer" href="./cv_hf.pdf" download={' '}>{t("header.buttom")}</a>
