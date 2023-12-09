@@ -1,5 +1,5 @@
 import img3 from '/images/weatherapp.png'
-import img6 from '/images/usercrudapi.png'
+import img6 from '/images/preview.png'
 import img7 from '/images/pokemonapi.png'
 import { useTranslation } from 'react-i18next'
 
@@ -42,16 +42,16 @@ const Portfolio = () => {
                         <div className='text-white absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                             <span className='text-very-light-blue font-medium font-montserrat'>{t("portfolio.uc1")}</span>
                         </div>
-                        <div className='text-white text-lg absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>User crud Api</div>
+                        <div className='text-white text-lg absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>To do list</div>
                     </div>
                     <article className='flex gap-x-12 justify-center p-1'>
                         <article className='text-black dark:text-white flex justify-center items-center gap-x-2 w-[100px] hover:bg-bg-100 hover:text-white'>
                             <i className='bx bxl-github'></i>
-                            <a href="https://github.com/ARojasPolanco/Project-2-react" target="_blank">GitHub</a>
+                            <a href="https://github.com/ARojasPolanco/ToDoList" target="_blank">GitHub</a>
                         </article>
                         <article className='flex justify-center items-center gap-x-2 text-netlify w-[100px] hover:bg-bg-100'>
                             <i className='bx bxl-netlify'></i>
-                            <a className="text-black dark:text-white hover:text-white" href="https://weather-api-academlo.netlify.app" target="_blank">Netlify</a>
+                            <a className="text-black dark:text-white hover:text-white" href="https://listadetareasbyap.netlify.app/" target="_blank">Netlify</a>
                         </article>
                     </article>
                 </article>
