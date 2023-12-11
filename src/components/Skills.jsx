@@ -5,7 +5,7 @@ import react from '/images/react-logo.png'
 import tailwind from '/images/tailwind-logo.png'
 import bootstrap from '/images/bootstrap-logo.png'
 import typescript from '/images/typescrpt-logo.png'
-import github from '/images/github-logo.png'
+import python from '/images/python-logo.png'
 import node from '/images/node-js.png'
 import { useTranslation } from 'react-i18next'
 
@@ -58,9 +58,9 @@ const Skiils = () => {
         },
         {
             id: 8,
-            src: github,
-            title: 'Git-Hub',
-            style: 'shadow-black'
+            src: python,
+            title: 'Pyhton',
+            style: 'shadow-python'
         },
         {
             id: 9,

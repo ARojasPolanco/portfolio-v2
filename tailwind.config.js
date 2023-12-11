@@ -46,7 +46,8 @@ export default {
       'netlify': '#25c7b7',
       'whatsapp': '#4cc75b',
       'linkedin': '#2867b2',
-      'node': '#539e43'
+      'node': '#539e43',
+      'python': '#ffd342'
     },
     fontFamily: {
       'montserrat': ['Montserrat', 'sans-serif'],
