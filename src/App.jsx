@@ -39,8 +39,8 @@ function App() {
       <Header handleDark={handleDark} handleClickChangeLanguages={handleClickChangeLanguages} isDark={isDark} />
       <Home />
       <AboutMe />
-      <Skills />
       <Portfolio />
+      <Skills />
       <ContactMe />
     </main>
   )
